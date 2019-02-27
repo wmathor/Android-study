@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2197db"
+    >
+
+    <TextView
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="20dp"
+        android:text="PassValueTest"
+        android:textColor="#fffefe"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbutton"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:background="#fff"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/UserNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:singleLine="true"
+                android:ems="10"
+                android:hint="Please Input UserName"
+                android:imeOptions="actionDone"
+                android:textSize="16sp"></EditText>
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="#ffc0c3c4" />
+
+        <EditText
+            android:id="@+id/PassWordText"
+            android:singleLine="true"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:background="#00ffffff"
+            android:gravity="center_vertical"
+            android:hint="PleaseInputPassWord"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:textColor="#ff1d1d1d"
+            android:textColorHint="#ff666666"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/SimplePassValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="28dp"
+        android:background="#3aadfd"
+        android:text="SimplePassValue"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/BundlePassValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginRight="28dp"
+        android:background="#3aadfd"
+        android:text="BundlePassValue"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/ClassPassValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="28dp"
+        android:background="#3aadfd"
+        android:text="ClassPassValue"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/ForResultPassValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginRight="28dp"
+        android:background="#3aadfd"
+        android:text="ForResultPassValue"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginRight="28dp"
+        android:background="#3aadfd"
+        android:text="Clear"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</RelativeLayout>
