@@ -15,7 +15,7 @@ An example shows the transformation during the Android application life cycle
 
 There are four modes of Activity startup:standard,singleTop,singleTask,singleInstance 
 
-We can set the launchMode directly in the `<activity>` of androidmanifest.xml
+We can set the launchMode directly in the `<activity>` of AndroidManifest.xml
 
 ```java
 <activity
