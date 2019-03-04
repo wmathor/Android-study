@@ -8,3 +8,25 @@ Call instances of other components through buttons, such as jump to another inte
 #### [PassValue]()
 
 This example shows several ways in which data can be transferred between multiple interfaces
+
+#### [ActivityLifeCycle](https://github.com/mathors/Android-study/tree/master/ActivityLifeCycle)
+
+An example shows the transformation during the Android application life cycle
+
+There are four modes of Activity startup:standard,singleTop,singleTask,singleInstance 
+
+We can set the launchMode directly in the `<activity>` of androidmanifest.xml
+
+```java
+<activity
+            android:name=".SingleTaskActivity"
+            android:label="singleTask launchMode"
+            android:launchMode="singleTask">
+```
+
+
+
+- **Standard**: It is the default startup mode for an Activity.Each time, a new Activity is started at the top of the stack
+- **singleTop**: When the started Activity is already at the top of the Activity stack, it is used directly
+- **singleTask**: Starting the Activity checks the stack for the presence of the Activity, and if so, simply pushes all activities above the Activity off the stack
+- **singleInstance**: If another Activity is called from this kind of Activity, a new Task would be automatically created to place that new Activity. Likewise, if singleInstance Activity is called, new Task would be created to place the Activity. 
