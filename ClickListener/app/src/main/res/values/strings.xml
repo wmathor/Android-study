@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ClickListener</string>
+    <array name="autoString">
+        <item>"Google Map"</item>
+        <item>"Google Search"</item>
+        <item>"Apple Watch"</item>
+        <item>"Apple pencil"</item>
+        <item>ipad Pro</item>
+        <item>iphone</item>
+    </array>
+</resources>
