@@ -38,3 +38,7 @@ There are three ways to bind a Button
 #### [Radio&CheckBox](https://github.com/mathors/Android-study/tree/master/Radio&CheckBox)
 
 Use instances of radio and multiple checkboxes, including event listening
+
+#### [ImageViewTest](https://github.com/mathors/Android-study/tree/master/ImageViewTest)
+
+A simple code instance to use for ImageView
